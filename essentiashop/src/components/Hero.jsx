@@ -57,7 +57,7 @@ export default function Hero() {
         <div className="hero__media">
           <div className="hero__image-wrap">
             <img
-              src="/src/assets/hero-fashion.jpg"
+              src="public/hero-fashion.jpg"
               alt="Nueva colección de prendas en tonos neutros"
               className="hero__image"
             />
