@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Hero.css";
+import heroFashion from "../assets/hero-fashion.jpg";
 
 export default function Hero() {
   return (
@@ -57,7 +58,7 @@ export default function Hero() {
         <div className="hero__media">
           <div className="hero__image-wrap">
             <img
-              src="public/hero-fashion.jpg"
+              src={heroFashion}
               alt="Nueva colección de prendas en tonos neutros"
               className="hero__image"
             />
