@@ -1,0 +1,26 @@
+.navbar__search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.navbar__search input {
+  width: 80%;
+  height: 42px;
+  padding: 0 14px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #f7f7f7;
+  outline: none;
+}
+
+@media (max-width: 992px) {
+  .navbar__search input {
+    width: 85%;
+    height: 42px;
+    padding: 0 14px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    background: #f7f7f7;
+    outline: none;
+  }
+}
